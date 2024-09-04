@@ -1,8 +1,12 @@
+name: TEM-intro-2024
 channels:
   - conda-forge
 dependencies:
   - hyperspy-base
   - hyperspy-gui-ipywidgets
+  - hyperspy-gui-traitsui
   - ipympl
   - atomap
-  - pyxem
+  - pyxem=0.19.1
+  - exspy
+  - jupyterlab

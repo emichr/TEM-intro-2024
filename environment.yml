@@ -5,6 +5,10 @@ dependencies:
   - hyperspy-base
   - hyperspy-gui-ipywidgets
   - hyperspy-gui-traitsui
+  - seaborn
+  - pandas
+  - tabulate
+  - requests
   - ipympl
   - atomap
   - pyxem=0.19.1

@@ -1,5 +1,18 @@
-MyBinder link: https://mybinder.org/v2/gh/TEM-Gemini-Centre/nordtemhub_digitalworkshop_2021/main?urlpath=lab
+# TEM Intro data analysis course
 
-Gitter link: https://gitter.im/TEM-Gemini-Centre/NordTEMHubDigitalWorkshop2021
+__Based on [NordTEMHub 2021](https://github.com/TEM-Gemini-Centre/nordtemhub_digitalworkshop_2021)
 
-Install instructions: https://magnunor.gitlab.io/2021_06_nordtemhub_install_instructions/
+## Installation instructions
+
+1. Download this environment specification file: [environment.yml](https://github.com/TEM-Gemini-Centre/nordtemhub_digitalworkshop_2021/blob/main/environment.yml).
+2. Open a conda prompt (anaconda, miniconda, miniforge, etc)
+3. In the prompt, navigate to the downloaded environment specification file
+4. Run the following code
+
+    ```bash
+    conda create env -f ./environment.yml
+    ```
+
+## Data
+
+Most data can be found in this repository. The data for template matching can be found [here](https://studntnu-my.sharepoint.com/:u:/g/personal/emilc_ntnu_no/EdNd0Nq1KfNNlo8N88f8U1QB-CDMM-MlgiUl47rjvP4RCg?e=YREhoB).
